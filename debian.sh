@@ -27,7 +27,7 @@ else
   sudo apt-get install git build-essential curl zlib1g-dev libbz2-dev libsqlite3-dev libreadline-dev libncurses5-dev libssl-dev libgdbm-dev python-pip libnss3-tools screen -y;
 fi
 
-cd ~/ && git clone https://github.com/aniketpanjwani/chomper.git;
+cd ~/ && git clone https://github.com/rpodcast/chomper.git;
 cd chomper;
 
 if [ ":$PATH:" != *":/home/$USER/chomper/bin"* ]
